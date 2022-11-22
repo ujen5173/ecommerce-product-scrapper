@@ -1,0 +1,121 @@
+const data = [
+  {
+    naming: {
+      brand: "Apple",
+      phone: "Apple iPad 10.2 (2019)",
+    },
+    network: {
+      notes: `Also known as Apple iPad 7th Gen, Apple iPad (7th generation), Wi-Fi + Cellular & GPS: A2200, A2198 (Global), Wi-Fi only, w/o GPS: A2197 (Global)`,
+      technology: "GSM / CDMA / HSPA / EVDO / LTE;",
+      network_2G_bands: "GSM 850 / 900 / 1800 / 1900 ;CDMA 800 / 1900",
+      network_3G_bands:
+        "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ;CDMA2000 1xEV-DO ;",
+      network_4G_bands:
+        "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 29, 30, 34, 38, 39, 40, 41, 66, 71 - A2200;1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 34, 38, 39, 40, 41, 66 - A2198;",
+      network_5G_bands:
+        "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 29, 30, 34, 38, 39, 40, 41, 66, 71 - A2200;1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 34, 38, 39, 40, 41, 66 - A2198;",
+      speed:
+        "HSPA 42.2/5.76 Mbps, LTE-A (CA) Cat16 1024/150 Mbps, EV-DO Rev.A 3.1 Mbps;",
+      GPRS: "HSPA 42.2/5.76 Mbps, LTE-A (CA) Cat16 1024/150 Mbps, EV-DO Rev.A 3.1 Mbps;",
+      network_edge:
+        "HSPA 42.2/5.76 Mbps, LTE-A (CA) Cat16 1024/150 Mbps, EV-DO Rev.A 3.1 Mbps;",
+    },
+    launch: {
+      announced: "2019, September 12;",
+      status: "Available. Released 2019, September 21;",
+    },
+    body: {
+      dimension: "250.6 x 174.1 x 7.5 mm (9.87 x 6.85 x 0.30 in);",
+      weight: "483 g (Wi-Fi) / 493 g (LTE) (1.06 lb);",
+      built: "Glass front, aluminum back, aluminum frame;",
+      keyboard: "Glass front, aluminum back, aluminum frame;",
+      sim: "Glass front, aluminum back, aluminum frame;",
+      others: "Stylus support (1st gen only);",
+    },
+    display: {
+      type: "IPS LCD;Li-Po 8827 mAh, non-removable (32.9 Wh);",
+      size: "10.2 inches, 324.6 cm2 (~74.4% screen-to-body ratio);",
+      resolution: "1620 x 2160 pixels, 4:3 ratio (~264 ppi density);",
+      multitouch: false,
+      protection: "1620 x 2160 pixels, 4:3 ratio (~264 ppi density);",
+      other: "True-tone;" | null,
+    },
+    platform: {
+      os: "iPadOS 13.1, upgradable to iPadOS 14.6;",
+      chipset: "Apple A10 Fusion (16 nm);",
+      cpu: "Quad-core 2.34 GHz (2x Hurricane + 2x Zephyr);",
+      gpu: "PowerVR Series7XT Plus (six-core graphics);",
+    },
+    memory: {
+      card_slot: "Yes" | "No",
+      phoneBook: "300 x 11 fields;" | null,
+      internal: "32GB 3GB RAM, 128GB 3GB RAM;",
+      call_records: "Advanced;" | null,
+    },
+    main_camera: {
+      single: "8 MP, AF;",
+      dual: "" | null,
+      triple: "" | null,
+      quad: "" | null,
+      five: "" | null,
+      six: "" | null,
+      features: "" | null,
+      video: "" | null,
+    },
+    selfie_camera: {
+      single: "" | null,
+      dual: "" | null,
+      triple: "" | null,
+      quad: "" | null,
+      features: "" | null,
+      video: "" | null,
+    },
+    sound: {
+      alert_types: null,
+      loudspeaker: "Yes, with stereo speakers;",
+      "sound_3.5mm_jack": "Yes;",
+      other: "Yes;",
+    },
+    comms: {
+      WLAN: "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot;",
+      Bluetooth: "4.2, A2DP, EDR, LE;",
+      GPS: "Yes, with A-GPS, GLONASS (Wiâ€‘Fi + Cellular model only);",
+      NFC: "No;",
+      Radio: "No;",
+      USB: "Lightning, USB 2.0; magnetic connector;",
+    },
+    features: {
+      Sensors:
+        "Fingerprint (front-mounted), accelerometer, gyro, compass, barometer;",
+      Messaging: "iMessage;",
+      Browser: "Safari",
+      Clock: "",
+      Alarm: "",
+      Games: "",
+      Languages: "",
+      Java: "",
+      Other: "Siri natural language commands and dictation;",
+    },
+    battery: {
+      battery: "",
+      charging: null,
+      standBy: null,
+      talk_time: null,
+      music_play: null,
+    },
+    misc: {
+      colors: null,
+      models: null,
+      SAR_US: null,
+      SAR_EU: null,
+      priceGroup: null,
+    },
+    test: {
+      performance: null,
+      display: null,
+      loudspeaker: null,
+      audioQuality: null,
+      batteryLife: null,
+    },
+  },
+];
